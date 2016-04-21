@@ -26,76 +26,77 @@ class ViewController: UIViewController {
     @IBOutlet weak var present: UITextField!
     
     @IBAction func onePressed(sender: AnyObject) {
-        input += " 1";
+        input = input + sender.currentTitle!!;
         present.text = input;
     }
-    @IBAction func twoPressed(sender: AnyObject) {
-        input += " 2";
+//    @IBAction func twoPressed(sender: AnyObject) {
+//        input += " 2";
+//        present.text = input;
+//    }
+//    @IBAction func threePressed(sender: AnyObject) {
+//        input += " 3";
+//        present.text = input;
+//    }
+//    @IBAction func fourPressed(sender: AnyObject) {
+//        input += " 4";
+//        present.text = input;
+//    }
+//    @IBAction func fivePressed(sender: AnyObject) {
+//        input += " 5";
+//                present.text = input;
+//    }
+//    @IBAction func sixPressed(sender: AnyObject) {
+//        input += " 6";
+//                present.text = input;
+//    }
+//    @IBAction func sevenPressed(sender: AnyObject) {
+//        input += " 7";
+//                present.text = input;
+//    }
+//    @IBAction func eightPressed(sender: AnyObject) {
+//        input += " 8";
+//                present.text = input;
+//    }
+//    @IBAction func ninePressed(sender: AnyObject) {
+//        input += " 9";
+//                present.text = input;
+//    }
+//    @IBAction func zeroPressed(sender: AnyObject) {
+//        input += " 0";
+//                present.text = input;
+//    }
+//    @IBAction func plusPressed(sender: AnyObject) {
+//        input += " +";
+//                present.text = input;
+//    }
+//    @IBAction func minusPressed(sender: AnyObject) {
+//        input += " -";
+//        present.text = input;
+//    }
+//    @IBAction func multiplyPressed(sender: AnyObject) {
+//        input += " *";
+//                present.text = input;
+//    }
+//    @IBAction func dividePressed(sender: AnyObject) {
+//        input += " /";
+//    }
+//    @IBAction func modPressed(sender: AnyObject) {
+//        input += " %"
+//                present.text = input;
+//    }
+//    @IBAction func countPressed(sender: AnyObject) {
+//        input += " count";
+//                present.text = input;
+//    }
+    @IBAction func operandPressed(sender: AnyObject) {
+        input += " " + sender.currentTitle!! + " ";
         present.text = input;
     }
-    @IBAction func threePressed(sender: AnyObject) {
-        input += " 3";
+    @IBAction func numSeparator(sender: AnyObject) {
+        input += " ";
         present.text = input;
     }
-    @IBAction func fourPressed(sender: AnyObject) {
-        input += " 4";
-        present.text = input;
-    }
-    @IBAction func fivePressed(sender: AnyObject) {
-        input += " 5";
-                present.text = input;
-    }
-    @IBAction func sixPressed(sender: AnyObject) {
-        input += " 6";
-                present.text = input;
-    }
-    @IBAction func sevenPressed(sender: AnyObject) {
-        input += " 7";
-                present.text = input;
-    }
-    @IBAction func eightPressed(sender: AnyObject) {
-        input += " 8";
-                present.text = input;
-    }
-    @IBAction func ninePressed(sender: AnyObject) {
-        input += " 9";
-                present.text = input;
-    }
-    @IBAction func zeroPressed(sender: AnyObject) {
-        input += " 0";
-                present.text = input;
-    }
-    @IBAction func plusPressed(sender: AnyObject) {
-        input += " +";
-                present.text = input;
-    }
-    @IBAction func minusPressed(sender: AnyObject) {
-        input += " -";
-        present.text = input;
-    }
-    @IBAction func multiplyPressed(sender: AnyObject) {
-        input += " *";
-                present.text = input;
-    }
-    @IBAction func dividePressed(sender: AnyObject) {
-        input += " /";
-    }
-    @IBAction func modPressed(sender: AnyObject) {
-        input += " %"
-                present.text = input;
-    }
-    @IBAction func countPressed(sender: AnyObject) {
-        input += " count";
-                present.text = input;
-    }
-    @IBAction func avgPressed(sender: AnyObject) {
-        input += " avg";
-                present.text = input;
-    }
-    @IBAction func factorialPressed(sender: AnyObject) {
-        input += " fact";
-                present.text = input;
-    }
+    
     
     
     
@@ -107,6 +108,8 @@ class ViewController: UIViewController {
             let multiOp : Set<String> = ["count", "avg", "fact"];
             
             if multiOp.contains(inputArr[count - 1]) {
+                NSLog("This is input: \(input)");
+                NSLog("This is parsed array \(inputArr)");
                 if inputArr[count - 1] == "count" {
                     result = count - 1;
                 } else if inputArr[count - 1] == "avg" {
@@ -152,6 +155,7 @@ class ViewController: UIViewController {
                     print("Invalid input!");
                 }
             }
+            NSLog("This is result: \(result)");
             if result != nil {
                 displayedResult = String(result!);
             } else {

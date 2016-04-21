@@ -21,126 +21,126 @@
                                 <rect key="frame" x="179" y="163" width="30" height="30"/>
                                 <state key="normal" title="2"/>
                                 <connections>
-                                    <action selector="twoPressed:" destination="BYZ-38-t0r" eventType="touchDown" id="UDP-AR-wgV"/>
+                                    <action selector="onePressed:" destination="BYZ-38-t0r" eventType="touchDown" id="TWJ-k5-BA9"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jsC-n6-clg">
                                 <rect key="frame" x="268" y="163" width="30" height="30"/>
                                 <state key="normal" title="3"/>
                                 <connections>
-                                    <action selector="threePressed:" destination="BYZ-38-t0r" eventType="touchDown" id="6LW-aZ-BR9"/>
+                                    <action selector="onePressed:" destination="BYZ-38-t0r" eventType="touchDown" id="lMv-3i-rB7"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6iG-0t-zpD">
                                 <rect key="frame" x="364" y="163" width="30" height="30"/>
                                 <state key="normal" title="4"/>
                                 <connections>
-                                    <action selector="fourPressed:" destination="BYZ-38-t0r" eventType="touchDown" id="P2x-RY-X4P"/>
+                                    <action selector="onePressed:" destination="BYZ-38-t0r" eventType="touchDown" id="oFu-cV-otm"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3qr-N1-Vht">
                                 <rect key="frame" x="83" y="246" width="30" height="30"/>
                                 <state key="normal" title="5"/>
                                 <connections>
-                                    <action selector="fivePressed:" destination="BYZ-38-t0r" eventType="touchDown" id="Baa-GG-ge0"/>
+                                    <action selector="onePressed:" destination="BYZ-38-t0r" eventType="touchDown" id="qI9-kS-ZO1"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pJ3-m1-v9i">
                                 <rect key="frame" x="179" y="246" width="30" height="30"/>
                                 <state key="normal" title="6"/>
                                 <connections>
-                                    <action selector="sixPressed:" destination="BYZ-38-t0r" eventType="touchDown" id="yzm-N1-tH1"/>
+                                    <action selector="onePressed:" destination="BYZ-38-t0r" eventType="touchDown" id="tpJ-Gi-djc"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cuM-ay-0ji">
                                 <rect key="frame" x="268" y="246" width="30" height="30"/>
                                 <state key="normal" title="7"/>
                                 <connections>
-                                    <action selector="sevenPressed:" destination="BYZ-38-t0r" eventType="touchDown" id="BIk-NW-4kM"/>
+                                    <action selector="onePressed:" destination="BYZ-38-t0r" eventType="touchDown" id="nia-jo-ey8"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="25M-mI-bNZ">
                                 <rect key="frame" x="364" y="246" width="30" height="30"/>
                                 <state key="normal" title="8"/>
                                 <connections>
-                                    <action selector="eightPressed:" destination="BYZ-38-t0r" eventType="touchDown" id="9Kj-B6-A9A"/>
+                                    <action selector="onePressed:" destination="BYZ-38-t0r" eventType="touchDown" id="yak-eA-ouc"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aXe-g1-sKc">
                                 <rect key="frame" x="83" y="337" width="30" height="30"/>
                                 <state key="normal" title="9"/>
                                 <connections>
-                                    <action selector="ninePressed:" destination="BYZ-38-t0r" eventType="touchDown" id="yBG-6F-69f"/>
+                                    <action selector="onePressed:" destination="BYZ-38-t0r" eventType="touchDown" id="HzJ-OU-RXl"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nzR-Vc-k1Q">
                                 <rect key="frame" x="179" y="337" width="30" height="30"/>
                                 <state key="normal" title="0"/>
                                 <connections>
-                                    <action selector="zeroPressed:" destination="BYZ-38-t0r" eventType="touchDown" id="aZK-DM-lws"/>
+                                    <action selector="onePressed:" destination="BYZ-38-t0r" eventType="touchDown" id="4Dd-I5-a0H"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iuy-TM-5s8">
                                 <rect key="frame" x="268" y="337" width="30" height="30"/>
                                 <state key="normal" title="+"/>
                                 <connections>
-                                    <action selector="plusPressed:" destination="BYZ-38-t0r" eventType="touchDown" id="SAL-4f-ifa"/>
+                                    <action selector="operandPressed:" destination="BYZ-38-t0r" eventType="touchDown" id="u0X-72-zBn"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hOj-d3-KFa">
                                 <rect key="frame" x="364" y="331" width="30" height="30"/>
                                 <state key="normal" title="-"/>
                                 <connections>
-                                    <action selector="minusPressed:" destination="BYZ-38-t0r" eventType="touchDown" id="5Ul-SG-TbM"/>
+                                    <action selector="operandPressed:" destination="BYZ-38-t0r" eventType="touchDown" id="fqT-Y5-at4"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eYq-If-2fS">
                                 <rect key="frame" x="83" y="419" width="30" height="30"/>
                                 <state key="normal" title="*"/>
                                 <connections>
-                                    <action selector="multiplyPressed:" destination="BYZ-38-t0r" eventType="touchDown" id="XhB-EF-TNX"/>
+                                    <action selector="operandPressed:" destination="BYZ-38-t0r" eventType="touchDown" id="ceX-1I-8Fp"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RNK-j6-jMk">
                                 <rect key="frame" x="179" y="419" width="30" height="30"/>
                                 <state key="normal" title="/"/>
                                 <connections>
-                                    <action selector="dividePressed:" destination="BYZ-38-t0r" eventType="touchDown" id="cXu-2G-soi"/>
+                                    <action selector="operandPressed:" destination="BYZ-38-t0r" eventType="touchDown" id="TuJ-ZS-5nf"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SXw-3K-8ko">
                                 <rect key="frame" x="268" y="419" width="30" height="30"/>
                                 <state key="normal" title="%"/>
                                 <connections>
-                                    <action selector="modPressed:" destination="BYZ-38-t0r" eventType="touchDown" id="hLS-yd-7pK"/>
+                                    <action selector="operandPressed:" destination="BYZ-38-t0r" eventType="touchDown" id="efb-pp-0zn"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qDy-hd-pVE">
                                 <rect key="frame" x="364" y="419" width="40" height="30"/>
                                 <state key="normal" title="count"/>
                                 <connections>
-                                    <action selector="countPressed:" destination="BYZ-38-t0r" eventType="touchDown" id="REd-QH-CjB"/>
+                                    <action selector="operandPressed:" destination="BYZ-38-t0r" eventType="touchDown" id="MUJ-5h-qMo"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Mt-wR-aTH">
                                 <rect key="frame" x="83" y="503" width="30" height="30"/>
                                 <state key="normal" title="avg"/>
                                 <connections>
-                                    <action selector="avgPressed:" destination="BYZ-38-t0r" eventType="touchDown" id="NIC-ys-fsI"/>
+                                    <action selector="operandPressed:" destination="BYZ-38-t0r" eventType="touchDown" id="Yhm-NJ-4uw"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dvs-ng-Rzv">
                                 <rect key="frame" x="179" y="503" width="30" height="30"/>
                                 <state key="normal" title="fact"/>
                                 <connections>
-                                    <action selector="factorialPressed:" destination="BYZ-38-t0r" eventType="touchDown" id="9TT-io-3Ut"/>
+                                    <action selector="operandPressed:" destination="BYZ-38-t0r" eventType="touchDown" id="6ab-Vf-q1u"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vGa-T5-L14">
                                 <rect key="frame" x="268" y="503" width="30" height="30"/>
                                 <state key="normal" title="="/>
                                 <connections>
-                                    <action selector="equals:" destination="BYZ-38-t0r" eventType="touchDown" id="YtD-dV-Flu"/>
+                                    <action selector="equals:" destination="BYZ-38-t0r" eventType="touchDown" id="dS4-CQ-wE0"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PLM-es-vlY">
@@ -155,6 +155,13 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dXj-Qx-kz9">
+                                <rect key="frame" x="320" y="503" width="123" height="30"/>
+                                <state key="normal" title="number separator"/>
+                                <connections>
+                                    <action selector="numSeparator:" destination="BYZ-38-t0r" eventType="touchDown" id="E1R-KS-Vkd"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
